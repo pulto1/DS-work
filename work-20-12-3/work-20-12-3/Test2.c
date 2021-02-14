@@ -18,7 +18,7 @@ int removeDuplicates(int* nums, int numsSize)
 	p2++;
 	int i = 0;
 	int count = 1;
-	for (i = 1; i < numsSize; i++)
+	for (i = 1; i < numsSize; i++)//从第二个元素开始判断
 	{
 		if (p1[i] != p1[i - 1])
 		{
