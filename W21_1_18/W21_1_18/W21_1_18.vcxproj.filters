@@ -21,5 +21,23 @@
     <ClCompile Include="Test2.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Test3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
