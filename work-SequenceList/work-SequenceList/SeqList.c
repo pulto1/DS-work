@@ -127,7 +127,7 @@ void SeqListInsert(SeqList* ps, size_t pos, SLDateType x)
 void SeqListErase(SeqList* ps, size_t pos)
 {
 	size_t start = pos - 1;
-	while (start <= ps->size - 1)
+	while (start < ps->size - 1)//这里不能等于，等于的话末端会越界
 	{
 		ps->a[start] = ps->a[start + 1];
 		start++;
